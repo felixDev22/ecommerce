@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Permanent+Marker&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+.banner {
+  width: 100%;
+  height: 40vh;
+  background-image: url('../../assets/pizza-header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  padding: 8% 15%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50vw;
+}
+.title h1 {
+  font-size: 98px;
+  letter-spacing: 2px;
+  font-family: 'Rowdies', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -20px;
+}
+.title h3 {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.title h2 {
+  font-family: 'Splash', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: -20px;
+}
