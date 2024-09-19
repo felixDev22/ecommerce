@@ -16,7 +16,7 @@
   width: 50vw;
 }
 .title h1 {
-  font-size: 98px;
+  font-size: 95px;
   letter-spacing: 2px;
   font-family: 'Rowdies', sans-serif;
   font-weight: 700;
@@ -31,6 +31,6 @@
   font-family: 'Splash', cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 35px;
+  font-size: max(35px, 20px);
   margin-top: -20px;
 }
