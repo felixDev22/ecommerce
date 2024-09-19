@@ -1,14 +1,37 @@
-#root {
-  max-width: 1280px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
   margin: 0;
-  padding: 2rem;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   outline: none;
+  border: none;
 }
+
+:root {
+  --primary-clr: #e61f1f;
+  --secondary-clr: #1dcf0c;
+}
+
+.container {
+  max-width: 1280px;
+}
+
 body {
   min-height: 100vh;
+  font-family: 'inter';
 }
-a {
-  color: inherit
+button {
+  padding: 8px 14px;
+
+  background: var(--secondary-clr);
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+button:hover {
+  background: var(--primary-clr);
+  color: #fff;
 }
