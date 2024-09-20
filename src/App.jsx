@@ -9,7 +9,9 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        <MenuSection />
+        <div className="container">
+          <MenuSection />
+        </div>
       </div>
     </>
   );
