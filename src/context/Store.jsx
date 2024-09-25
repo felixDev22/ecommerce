@@ -1,20 +1,14 @@
-import { createContext, useState } from 'react';
+import { createContext } from 'react';
+import { menuItems } from '../assets';
 
 export const Store = createContext(null);
 
-// eslint-disable-next-line react/prop-types
-const StoreProvider = ({ children }) => {
-  const [state, setState] = useState({
-    user: null,
-    cart: [],
-  });
-
+const StoreProvider = (props) => {
   const contextValue = {
-    state,
-    setState,
+    menuItems,
   };
 
-  return <Store.Provider value={contextValue}>{children}</Store.Provider>;
+  return <Store.Provider value={contextValue}>{props.children}</Store.Provider>;
 };
 
 export default StoreProvider;
