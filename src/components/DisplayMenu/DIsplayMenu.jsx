@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { StoreContext } from '../../context/Store';
+import './displayMenu.css';
 
 const DisplayMenu = ({ category }) => {
   const { menuItems } = useContext(StoreContext);
@@ -7,13 +8,12 @@ const DisplayMenu = ({ category }) => {
   return (
     <div className="menu-display" id="menu-display">
       <h2>Make your choose, click and make your order</h2>
-      <div>
+      <div className='menuDisplay-container'>
         {menuItems.map((item, index) => {
           return (
-            <div key={index} className="menu-wrapper">
-              <div>
-                <img src={item.image} className="menu-img" />
-              </div>
+            <div key={index} className="menuDisplay-card">
+              <img src={item.image} className="menuDisplay-img" />
+
               <div className="menu-info">
                 <h4>{item.type}</h4>
                 <p>{item.desc}</p>
