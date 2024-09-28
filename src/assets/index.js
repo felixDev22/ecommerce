@@ -116,7 +116,7 @@ export const menuItems = [
   },
   {
     id: 6,
-    image: food5,
+    image: food6,
     type: 'Chawama',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
@@ -124,7 +124,7 @@ export const menuItems = [
   },
   {
     id: 7,
-    image: food5,
+    image: food7,
     type: 'Pilau',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
