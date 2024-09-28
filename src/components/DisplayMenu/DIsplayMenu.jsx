@@ -16,7 +16,7 @@ const DisplayMenu = ({ category }) => {
 
               <div className="menu-info">
                 <h4>{item.type}</h4>
-                <p>{item.desc}</p>
+                <p>{item.disc}</p>
                 <h5>{item.price}</h5>
               </div>
             </div>
