@@ -20,6 +20,10 @@ import cat09 from './menu-cat9.png';
 
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { FaCartPlus } from 'react-icons/fa6';
+import { FaRegStar } from 'react-icons/fa6';
+import { FaStar } from 'react-icons/fa6';
+
+export const icons = { FaMagnifyingGlass, FaCartPlus, FaRegStar, FaStar };
 
 export const assets = {
   logo,
@@ -32,7 +36,6 @@ export const assets = {
   food7,
   banner,
 };
-export const icons = { FaMagnifyingGlass, FaCartPlus };
 
 export const menuCategory = [
   {
