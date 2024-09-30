@@ -22,9 +22,13 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.menu-info{
+.menu-info {
   padding: 20px;
 }
 .menu-info h4 {
+  margin-bottom: 5px;
+}
+.menu-info p {
+  color: grey;
   margin-bottom: 5px;
 }
