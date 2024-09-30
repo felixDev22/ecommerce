@@ -22,3 +22,9 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+.menu-info{
+  padding: 20px;
+}
+.menu-info h4 {
+  margin-bottom: 5px;
+}
