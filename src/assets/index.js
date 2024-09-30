@@ -130,4 +130,28 @@ export const menuItems = [
     price: 530,
     category: 'Meals',
   },
+  {
+    id: 8,
+    image: food1,
+    type: 'Ribs',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 9,
+    image: food2,
+    type: 'Spaghetti with Sausage',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 10,
+    image: food3,
+    type: 'Beef',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
 ];
