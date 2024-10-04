@@ -9,7 +9,7 @@ const MenuSection = () => {
       <div>
         <h1>Choose Your Favorite Dish</h1>
         <p>
-          Scroll to explore a variety of mouthwatering meals waiting for you
+          Scroll to explore a variety of mouthwatering meals waiting for you.
         </p>
       </div>
       <div className="menu-list">

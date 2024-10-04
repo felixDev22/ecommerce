@@ -5,6 +5,10 @@
   height: auto;
   margin-top: 50px;
 }
+.menu-section p, h1{
+  display: flex;
+  justify-content: center;
+}
 
 .menu-list {
   display: flex;
