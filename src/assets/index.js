@@ -20,6 +20,10 @@ import cat09 from './menu-cat9.png';
 
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { FaCartPlus } from 'react-icons/fa6';
+import { FaRegStar } from 'react-icons/fa6';
+import { FaStar } from 'react-icons/fa6';
+
+export const icons = { FaMagnifyingGlass, FaCartPlus, FaRegStar, FaStar };
 
 export const assets = {
   logo,
@@ -32,7 +36,6 @@ export const assets = {
   food7,
   banner,
 };
-export const icons = { FaMagnifyingGlass, FaCartPlus };
 
 export const menuCategory = [
   {
@@ -48,7 +51,7 @@ export const menuCategory = [
     image: cat03,
   },
   {
-    name: 'Burgers',
+    name: 'Fast-foods',
     image: cat04,
   },
   {
@@ -70,5 +73,88 @@ export const menuCategory = [
   {
     name: 'Meals',
     image: cat09,
+  },
+];
+
+export const menuItems = [
+  {
+    id: 1,
+    image: food1,
+    type: 'Ribs',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 2,
+    image: food2,
+    type: 'Spaghetti with Sausage',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 3,
+    image: food3,
+    type: 'Beef',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 4,
+    image: food4,
+    type: 'Chicken',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 5,
+    image: food5,
+    type: 'Spaghetti2',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 6,
+    image: food6,
+    type: 'Chawama',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-foods',
+  },
+  {
+    id: 7,
+    image: food7,
+    type: 'Pilau',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 8,
+    image: food1,
+    type: 'Ribs',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 9,
+    image: food2,
+    type: 'Spaghetti with Sausage',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
+  },
+  {
+    id: 10,
+    image: food3,
+    type: 'Beef',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Meals',
   },
 ];
