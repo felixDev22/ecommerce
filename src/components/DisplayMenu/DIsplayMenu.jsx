@@ -4,24 +4,28 @@ import './displayMenu.css';
 import Rating from '../Rating/Rating';
 import AddItems from '../addItems/addItems';
 
-const DisplayMenu = () => {
+const DisplayMenu = ({ category }) => {
   const { menuItems } = useContext(StoreContext);
 
   return (
     <div className="menu-display" id="menu-display">
-      <h2>Make your choose, click and make your order</h2>
+      <h2>Make your choice, click and make your order</h2>
       <div className="menuDisplay-container">
         {menuItems.map((item, index) => {
           return (
             <div key={index} className="menuDisplay-card">
-              <img src={item.image} className="menuDisplay-img" />
+              <img
+                src={item.image}
+                className="menuDisplay-img"
+                alt={item.type}
+              />
 
               <div className="menu-info">
                 <Rating />
                 <h4>{item.type}</h4>
                 <p>{item.disc}</p>
                 <h5>Ksh {item.price}</h5>
-                <AddItems />
+                <AddItems id={item.id} />
               </div>
             </div>
           );
