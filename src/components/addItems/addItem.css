@@ -1,8 +1,16 @@
 .add-cartWrapper {
-  padding: 10px;
+  position: absolute;
+  top: 40%;
+  width: 70px; 
+  padding: 2px;
   border-radius: 20px;
-  background: red;
+  background: rgb(250, 190, 78);
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.add,
+.remove {
+  color: #fff;
+  font-size: 18px;
 }

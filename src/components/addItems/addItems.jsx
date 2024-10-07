@@ -2,10 +2,10 @@ import { StoreContext } from '../../context/Store';
 import { IoMdAddCircle } from 'react-icons/io';
 import { IoRemoveCircle } from 'react-icons/io5';
 import { useContext } from 'react';
-import './addItem.css'
+import './addItem.css';
 
 const AddItems = ({ id }) => {
-  const { addCartItems, removeCartItems } = useContext(StoreContext);
+  const { cartItems, addCartItems, removeCartItems } = useContext(StoreContext);
 
   return (
     <div className="add-cartWrapper">
