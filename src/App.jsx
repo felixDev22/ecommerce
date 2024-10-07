@@ -1,9 +1,10 @@
 import './App.css';
 import Hero from './components/hero/hero';
 import Navbar from './components/Navbar/Navbar';
-import MenuSection from './components/menuSection/MenuSection';
+
 import DisplayMenu from './components/DisplayMenu/DIsplayMenu';
 import { useState } from 'react';
+import MenuSection from './components/menuSection/menuSection';
 
 function App() {
   const { category, setCategory } = useState('All');

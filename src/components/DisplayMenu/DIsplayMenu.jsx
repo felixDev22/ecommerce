@@ -1,11 +1,11 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import { StoreContext } from '../../context/Store';
 import './displayMenu.css';
 import Rating from '../Rating/Rating';
+import AddItems from '../addItems/addItems';
 
-const DisplayMenu = ({ category }) => {
+const DisplayMenu = () => {
   const { menuItems } = useContext(StoreContext);
-  const [rate, setRate] = useState(0);
 
   return (
     <div className="menu-display" id="menu-display">
@@ -21,6 +21,7 @@ const DisplayMenu = ({ category }) => {
                 <h4>{item.type}</h4>
                 <p>{item.disc}</p>
                 <h5>Ksh {item.price}</h5>
+                <AddItems />
               </div>
             </div>
           );
