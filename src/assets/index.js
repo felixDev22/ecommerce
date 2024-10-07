@@ -22,8 +22,17 @@ import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { FaCartPlus } from 'react-icons/fa6';
 import { FaRegStar } from 'react-icons/fa6';
 import { FaStar } from 'react-icons/fa6';
+import { IoMdAddCircle } from 'react-icons/io';
+import { IoRemoveCircle } from 'react-icons/io5';
 
-export const icons = { FaMagnifyingGlass, FaCartPlus, FaRegStar, FaStar };
+export const icons = {
+  FaMagnifyingGlass,
+  FaCartPlus,
+  FaRegStar,
+  FaStar,
+  IoMdAddCircle,
+  IoRemoveCircle,
+};
 
 export const assets = {
   logo,
