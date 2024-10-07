@@ -1,0 +1,8 @@
+.add-cartWrapper {
+  padding: 10px;
+  border-radius: 20px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
