@@ -7,7 +7,7 @@ import { useState } from 'react';
 import MenuSection from './components/menuSection/menuSection';
 
 function App() {
-  const { category, setCategory } = useState('All');
+  const [category, setCategory] = useState('All');
 
   return (
     <>
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <div className="container">
-          <MenuSection />
+          <MenuSection setCategory={setCategory} />
           <DisplayMenu category={category} />
         </div>
       </div>
