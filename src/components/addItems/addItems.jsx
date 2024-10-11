@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import './addItem.css';
 
 const AddItems = ({ id }) => {
-  const { cartItems, addCartItems, removeCartItems } = useContext(StoreContext);
+  const { addCartItems, removeCartItems } = useContext(StoreContext);
 
   return (
     <div className="add-cartWrapper">
