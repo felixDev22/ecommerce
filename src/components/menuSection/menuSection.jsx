@@ -1,9 +1,8 @@
+import PropTypes from 'prop-types';
 import { menuCategory } from '../../assets';
 import './menuSection.css';
-import { useState } from 'react';
 
-const MenuSection = () => {
-  const [category, setCategory] = useState('ALL');
+const MenuSection = ({ category, setCategory }) => {
   return (
     <div className="menu-section">
       <div>
@@ -33,6 +32,11 @@ const MenuSection = () => {
       </div>
     </div>
   );
+};
+
+MenuSection.propTypes = {
+  category: PropTypes.string.isRequired,
+  setCategory: PropTypes.string.isRequired,
 };
 
 export default MenuSection;
