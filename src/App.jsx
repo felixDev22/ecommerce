@@ -1,12 +1,12 @@
 import './App.css';
 import Hero from './components/hero/hero';
 import Navbar from './components/Navbar/Navbar';
-import MenuSection from './components/menuSection/MenuSection';
-import DisplayMenu from './components/DisplayMenu/DIsplayMenu';
+import DisplayMenu from './components/DisplayMenu/DisplayMenu';
 import { useState } from 'react';
+import MenuSection from './components/menuSection/menuSection';
 
 function App() {
-  const { category, setCategory } = useState('All');
+  const [category, setCategory] = useState('ALL');
 
   return (
     <>
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <div className="container">
-          <MenuSection />
+          <MenuSection category={category} setCategory={setCategory} />
           <DisplayMenu category={category} />
         </div>
       </div>

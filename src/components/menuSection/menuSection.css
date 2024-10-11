@@ -37,7 +37,7 @@
   height: 120px;
   object-fit: cover;
   border-radius: 10px;
-  transition: 3s;
+  /* transition: 3s; */
 }
 
 .menu-items p {
@@ -49,6 +49,5 @@
   height: 120px;
   border: solid 4px #1dcf0c;
   border-radius: 10px;
-  padding: 2px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
