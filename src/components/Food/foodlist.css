@@ -1,0 +1,22 @@
+.menuDisplay-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.menu-info {
+  padding: 20px;
+}
+.menu-info h4 {
+  margin-bottom: 5px;
+}
+.menu-info p {
+  color: grey;
+  margin-bottom: 8px;
+}
+.menu-info h5 {
+  color: #f09712;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
