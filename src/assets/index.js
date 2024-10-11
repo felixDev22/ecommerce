@@ -116,7 +116,7 @@ export const menuItems = [
     type: 'Chicken',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Swahili Dishes',
   },
   {
     id: 5,
@@ -140,7 +140,7 @@ export const menuItems = [
     type: 'Pilau',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Swahili Dishes',
   },
   {
     id: 8,
@@ -156,7 +156,7 @@ export const menuItems = [
     type: 'Spaghetti with Sausage',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Salad',
   },
   {
     id: 10,
