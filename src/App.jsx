@@ -5,6 +5,7 @@ import DisplayMenu from './components/DisplayMenu/DisplayMenu';
 import { useState } from 'react';
 import MenuSection from './components/menuSection/menuSection';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [category, setCategory] = useState('ALL');
@@ -19,6 +20,7 @@ function App() {
         <MenuSection category={category} setCategory={setCategory} />
         <DisplayMenu category={category} />
       </div>
+      <Footer />
     </div>
   );
 }
