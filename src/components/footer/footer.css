@@ -10,9 +10,31 @@
 }
 .footer-wrapper {
   width: 100%;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 .footer-left img {
   width: 40%;
+}
+.footer-copy {
+  width: 300px;
+}
+.footer-centre h4,
+.footer-right h4 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.footer-centre ul li,
+.footer-right ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.line {
+  background-color: #bdbdbd;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
 }
