@@ -1,4 +1,5 @@
 import { assets } from '../../assets';
+import './footer.css';
 
 const Footer = () => {
   return (
@@ -8,6 +9,7 @@ const Footer = () => {
           <img src={assets.logo} alt="footer-logo" />
         </div>
         <div className="footer-centre">
+          <h4>QUICK LINKS</h4>
           <ul>
             <li>Home</li>
             <li>Whats new?</li>
@@ -16,9 +18,15 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-right">
-          
+          <h4>GET IN TOUCH</h4>
+          <ul>
+            <li>+254 700 000 001</li>
+            <li>info@GoodFoods.com</li>
+          </ul>
         </div>
       </div>
+      <hr></hr>
+      <p className="copyright">All Copyright reserved. | 2024 </p>
     </div>
   );
 };

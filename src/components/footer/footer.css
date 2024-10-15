@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10%;
+}
+.footer-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.footer-left img{
+
+}
