@@ -7,6 +7,10 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="footer-left">
           <img src={assets.logo} alt="footer-logo" />
+          <p className="footer-copy">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore
+          </p>
         </div>
         <div className="footer-centre">
           <h4>QUICK LINKS</h4>
@@ -25,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <hr></hr>
+      <hr className="line"></hr>
       <p className="copyright">All Copyright reserved. | 2024 </p>
     </div>
   );
