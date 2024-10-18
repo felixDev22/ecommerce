@@ -12,13 +12,13 @@ const DisplayMenu = ({ category }) => {
       <h2>Make your choice, click and make your order</h2>
       <div className="menuDisplay-container">
         {menuItems
-          .filter((item) => category === 'ALL' || item.category === category) 
+          .filter((item) => category === 'ALL' || item.category === category)
           .map((item, index) => (
             <div key={index} className="menuDisplay-card">
               <FoodList
                 id={item.id}
                 image={item.image}
-                type={item.name} 
+                type={item.type}
                 disc={item.disc}
                 price={item.price}
               />
@@ -30,7 +30,7 @@ const DisplayMenu = ({ category }) => {
 };
 
 DisplayMenu.propTypes = {
-  category: PropTypes.string.isRequired,
+  category: PropTypes.string,
 };
 
 export default DisplayMenu;
