@@ -2,7 +2,7 @@ import './Navbar.css';
 import { assets } from '../../assets/index';
 import { icons } from '../../assets/index';
 
-const Navbar = () => {
+const Navbar = (setShowLogin) => {
   return (
     <div className="nav">
       <img src={assets.logo} alt="logo" className="logo" />
