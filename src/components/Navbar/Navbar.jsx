@@ -2,7 +2,7 @@ import './Navbar.css';
 import { assets } from '../../assets/index';
 import { icons } from '../../assets/index';
 
-const Navbar = (setShowLogin) => {
+const Navbar = ({setShowLogin}) => {
   return (
     <div className="nav">
       <img src={assets.logo} alt="logo" className="logo" />
@@ -18,7 +18,7 @@ const Navbar = (setShowLogin) => {
           <icons.FaCartPlus className="nav-icon" />
         </div>
       </div>
-      <button className="login-btn">Log-in</button>
+      <button className="login-btn"  onClick={()=>setShowLogin(true)}>Log-in</button>
     </div>
   );
 };
