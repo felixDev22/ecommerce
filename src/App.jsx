@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      {showLogin?<Login/>:<></>}
+      {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
       <Navbar setShowLogin={setShowLogin}/>
       <Routes>
         <Route path="/" element={<Hero />} />
