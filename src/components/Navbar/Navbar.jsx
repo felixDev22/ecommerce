@@ -1,8 +1,9 @@
 import './Navbar.css';
 import { assets } from '../../assets/index';
 import { icons } from '../../assets/index';
+import PropTypes from 'prop-types';
 
-const Navbar = ({setShowLogin}) => {
+const Navbar = ({ setShowLogin }) => {
   return (
     <div className="nav">
       <img src={assets.logo} alt="logo" className="logo" />
@@ -18,9 +19,14 @@ const Navbar = ({setShowLogin}) => {
           <icons.FaCartPlus className="nav-icon" />
         </div>
       </div>
-      <button className="login-btn"  onClick={()=>setShowLogin(true)}>Log-in</button>
+      <button className="login-btn" onClick={() => setShowLogin(true)}>
+        Log-in
+      </button>
     </div>
   );
+};
+Navbar.propTypes = {
+  setShowLogin: PropTypes.string.isRequired,
 };
 
 export default Navbar;
