@@ -14,17 +14,27 @@
   color: #808080;
   font-size: 12px;
   place-self: center;
-
   display: flex;
   flex-direction: column;
 }
+.login-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cross {
+  font-size: medium;
+}
+
 .login-input {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 .login-input input {
-  border: solid 1px  #808080;
+  border: solid 1px #808080;
   border-radius: 10px;
   padding: 15px 10px;
 }
