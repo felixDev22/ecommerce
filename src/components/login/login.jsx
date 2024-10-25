@@ -10,8 +10,22 @@ const Login = ({ setShowLogin }) => {
       <form className="login-wrapper">
         <div className="login-title">
           <h2>{curr}</h2>
-          <IoClose onClick={()=>setShowLogin(false)} />
+          <IoClose onClick={() => setShowLogin(false)} />
         </div>
+        <div className="input">
+          {curr === 'Login' ? (
+            <></>
+          ) : (
+            <input type="name" placeholder="Enter your Name" required />
+          )}
+
+          <input type="email" placeholder="Enter your Email" required />
+          <input type="Confirm email" placeholder="Confirm email" required />
+          <input type="password" placeholder="Password" required />
+        </div>
+        <button className="submit">
+          {curr === 'Sign-up' ? 'Create an account' : 'Login'}
+        </button>
       </form>
     </div>
   );
