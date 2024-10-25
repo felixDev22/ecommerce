@@ -21,7 +21,7 @@ const Login = ({ setShowLogin }) => {
           )}
 
           <input type="email" placeholder="Enter your Email" required />
-          <input type="Confirm Email" placeholder="Confirm email" required />
+          <input type="confirm-email" placeholder="Confirm Email" required />
           <input type="password" placeholder="Password" required />
         </div>
         <button className="submit">
