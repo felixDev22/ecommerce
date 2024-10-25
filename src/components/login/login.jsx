@@ -26,6 +26,10 @@ const Login = ({ setShowLogin }) => {
         <button className="submit">
           {curr === 'Sign-up' ? 'Create an account' : 'Login'}
         </button>
+        <div className="terms">
+          <input type="checkbox" required />
+          <p>I agree to the terms of use & privacy policy.</p>
+        </div>
       </form>
     </div>
   );
