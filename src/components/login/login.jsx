@@ -11,9 +11,9 @@ const Login = ({ setShowLogin }) => {
       <form className="login-wrapper">
         <div className="login-title">
           <h2>{curr}</h2>
-          <IoClose onClick={() => setShowLogin(false)} />
+          <IoClose onClick={() => setShowLogin(false)} className="cross" />
         </div>
-        <div className='login-input'>
+        <div className="login-input">
           {curr === 'Login' ? (
             <></>
           ) : (
@@ -28,20 +28,27 @@ const Login = ({ setShowLogin }) => {
           {curr === 'Sign-up' ? 'Create an account' : 'Login'}
         </button>
         <div className="terms">
-          <input type="checkbox" required />
-          <p>I agree to the terms of use & privacy policy.</p>
+          {curr === 'Sign-up' ? (
+            <div>
+              <input type="checkbox" required />
+              <p>I agree to the terms of use & privacy policy.</p>
+            </div>
+          ) : (
+            ''
+          )}
+
+          {curr === 'Login' ? (
+            <p>
+              Create a new account?{' '}
+              <span onClick={() => setCurr('Sign-up')}> Click here</span>
+            </p>
+          ) : (
+            <p>
+              Already have an account?
+              <span onClick={() => setCurr('Login')}> Login here</span>{' '}
+            </p>
+          )}
         </div>
-        {curr === 'Login' ? (
-          <p>
-            Create new account?{' '}
-            <span onClick={() => setCurr('Sign-up')}> Click here</span>
-          </p>
-        ) : (
-          <p>
-            Already have an account?
-            <span onClick={() => setCurr('Login')}> Login here</span>{' '}
-          </p>
-        )}
       </form>
     </div>
   );
