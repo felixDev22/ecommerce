@@ -33,12 +33,12 @@ const Login = ({ setShowLogin }) => {
         {curr === 'Login' ? (
           <p>
             Create new account?{' '}
-            <span onClick={() => setCurr('Sign-up')}>Click here</span>
+            <span onClick={() => setCurr('Sign-up')}> Click here</span>
           </p>
         ) : (
           <p>
             Already have an account?
-            <span onClick={() => setCurr('Login')}>Login here</span>{' '}
+            <span onClick={() => setCurr('Login')}> Login here</span>{' '}
           </p>
         )}
       </form>
