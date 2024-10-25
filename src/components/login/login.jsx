@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import PropTypes from 'prop-types';
+import './login.css';
 
 const Login = ({ setShowLogin }) => {
   const [curr, setCurr] = useState('Sign-up');
 
   return (
-    <div className="Login">
+    <div className="login">
       <form className="login-wrapper">
         <div className="login-title">
           <h2>{curr}</h2>
