@@ -13,7 +13,7 @@ const Login = ({ setShowLogin }) => {
           <h2>{curr}</h2>
           <IoClose onClick={() => setShowLogin(false)} />
         </div>
-        <div className="input">
+        <div className='login-input'>
           {curr === 'Login' ? (
             <></>
           ) : (
@@ -21,7 +21,7 @@ const Login = ({ setShowLogin }) => {
           )}
 
           <input type="email" placeholder="Enter your Email" required />
-          <input type="Confirm email" placeholder="Confirm email" required />
+          <input type="Confirm Email" placeholder="Confirm email" required />
           <input type="password" placeholder="Password" required />
         </div>
         <button className="submit">

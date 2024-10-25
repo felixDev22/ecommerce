@@ -4,4 +4,36 @@
   background-color: #0000009f;
   position: absolute;
   z-index: 2;
+  display: grid;
+}
+.login-wrapper {
+  width: (20vw, 330px);
+  padding: 20px 30px;
+  border-radius: 8px;
+  background-color: #ffff;
+  color: #808080;
+  font-size: 12px;
+  place-self: center;
+
+  display: flex;
+  flex-direction: column;
+}
+.login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.login-input input {
+  border: solid 1px  #808080;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+.submit {
+  margin: 20px 0px 20px 0px;
+}
+.terms input {
+  margin-bottom: 5px;
+}
+span {
+  color: red;
 }
