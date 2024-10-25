@@ -30,6 +30,17 @@ const Login = ({ setShowLogin }) => {
           <input type="checkbox" required />
           <p>I agree to the terms of use & privacy policy.</p>
         </div>
+        {curr === 'Login' ? (
+          <p>
+            Create new account?{' '}
+            <span onClick={() => setCurr('Sign-up')}>click here</span>
+          </p>
+        ) : (
+          <p>
+            You already have an account
+            <span onClick={() => setCurr('Login')}>Login here</span>{' '}
+          </p>
+        )}
       </form>
     </div>
   );
