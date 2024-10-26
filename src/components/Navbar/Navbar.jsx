@@ -20,7 +20,7 @@ const Navbar = ({ setShowLogin }) => {
         </div>
       </div>
       <button className="login-btn" onClick={() => setShowLogin(true)}>
-        Log-in
+        Sign-up
       </button>
     </div>
   );

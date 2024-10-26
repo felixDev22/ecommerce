@@ -47,3 +47,7 @@
 span {
   color: red;
 }
+.policy {
+  display: flex;
+  gap: 10px;
+}
