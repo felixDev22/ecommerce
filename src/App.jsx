@@ -6,13 +6,16 @@ import { useState } from 'react';
 import MenuSection from './components/menuSection/menuSection';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer/Footer';
+import Login from './components/login/login';
 
 function App() {
   const [category, setCategory] = useState('ALL');
+  const [showLogin, setShowLogin] = useState(false)
 
   return (
     <div>
-      <Navbar />
+      {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
+      <Navbar setShowLogin={setShowLogin}/>
       <Routes>
         <Route path="/" element={<Hero />} />
       </Routes>

@@ -36,7 +36,7 @@ const MenuSection = ({ category, setCategory }) => {
 
 MenuSection.propTypes = {
   category: PropTypes.string.isRequired,
-  setCategory: PropTypes.string.isRequired,
+  setCategory: PropTypes.func.isRequired,
 };
 
 export default MenuSection;
