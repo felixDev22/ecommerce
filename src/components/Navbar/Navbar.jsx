@@ -2,6 +2,7 @@ import './Navbar.css';
 import { assets } from '../../assets/index';
 import { icons } from '../../assets/index';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ setShowLogin }) => {
   return (
@@ -15,9 +16,11 @@ const Navbar = ({ setShowLogin }) => {
       </ul>
       <div className="nav-right">
         <icons.FaMagnifyingGlass className="nav-icon" />
-        <div>
-          <icons.FaCartPlus className="nav-icon" />
-        </div>
+        <Link to="cart">
+          <div>
+            <icons.FaCartPlus className="nav-icon" />
+          </div>
+        </Link>
       </div>
       <button className="login-btn" onClick={() => setShowLogin(true)}>
         Sign-up
