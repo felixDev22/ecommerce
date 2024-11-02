@@ -7,17 +7,19 @@ import MenuSection from './components/menuSection/menuSection';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer/Footer';
 import Login from './components/login/login';
+import Cart from './pages/cart/Cart';
 
 function App() {
   const [category, setCategory] = useState('ALL');
-  const [showLogin, setShowLogin] = useState(false)
+  const [showLogin, setShowLogin] = useState(false);
 
   return (
     <div>
-      {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
-      <Navbar setShowLogin={setShowLogin}/>
+      {showLogin ? <Login setShowLogin={setShowLogin} /> : <></>}
+      <Navbar setShowLogin={setShowLogin} />
       <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <div className="container">
         <MenuSection category={category} setCategory={setCategory} />
