@@ -7,12 +7,14 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ setShowLogin }) => {
   return (
     <div className="nav">
-      <img src={assets.logo} alt="logo" className="logo" />
+      <Link to="/">
+        <img src={assets.logo} alt="logo" className="logo" />
+      </Link>
       <ul className="nav-menu">
-        <li>Menu</li>
-        <li>Whats new?</li>
-        <li>Download app</li>
-        <li>Contact us</li>
+        <a href="#menu">Menu</a>
+        <a href="#">Whats new?</a>
+        <a href="#">Download app</a>
+        <a href="#footer">Contact us</a>
       </ul>
       <div className="nav-right">
         <icons.FaMagnifyingGlass className="nav-icon" />
@@ -29,7 +31,7 @@ const Navbar = ({ setShowLogin }) => {
   );
 };
 Navbar.propTypes = {
-  setShowLogin: PropTypes.string.isRequired,
+  setShowLogin: PropTypes.func,
 };
 
 export default Navbar;
