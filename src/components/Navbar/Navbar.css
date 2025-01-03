@@ -11,6 +11,16 @@
   width: 150px;
 }
 
+.nav-menu a {
+  font-size: 20px;
+  color: black;
+}
+
+.nav-menu a:hover {
+  font-size: 20px;
+  color: #e61f1f;
+}
+
 .nav-menu,
 .nav-right {
   display: flex;
@@ -18,9 +28,6 @@
   text-decoration: none;
 }
 
-.nav ul:hover {
-  color: var(--secondary-clr);
-}
 .menu {
   display: none;
 }
@@ -64,7 +71,7 @@
     color: black;
   }
 
-  .login-btn{
+  .login-btn {
     font-size: small;
   }
 }

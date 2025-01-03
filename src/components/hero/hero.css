@@ -32,3 +32,20 @@
   font-style: italic;
   font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+  .title {
+  padding: 20% 5%;
+  }
+
+   .title h1 {
+  font-size: 60px;
+  }
+  .title h2{
+    font-size: 18px;
+  }
+  .title h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+}
