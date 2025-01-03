@@ -6,7 +6,7 @@ const MenuSection = ({ category, setCategory }) => {
   return (
     <div className="menu-section" id="menu">
       <div>
-        <h1>Choose Your Favorite Dish</h1>
+        <h2>Choose Your Favorite Dish</h2>
         <p>
           Scroll to explore a variety of mouthwatering meals waiting for you.
         </p>
