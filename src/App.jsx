@@ -1,7 +1,7 @@
 import './App.css';
 import Hero from './components/hero/hero';
 import Navbar from './components/Navbar/Navbar';
-import DisplayMenu from './components/DisplayMenu/DisplayMenu';
+import DisplayMenu from './components/allMenus/DIsplayMenu';
 import { useState } from 'react';
 import MenuSection from './components/menuSection/menuSection';
 import { Route, Routes, useLocation } from 'react-router-dom';
