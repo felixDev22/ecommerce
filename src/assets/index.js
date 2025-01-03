@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import logoWhite from './logo-white.png';
 import food1 from './food-1.jpg';
 import food2 from './food-2.jpg';
 import food3 from './food-3.jpg';
@@ -36,6 +37,7 @@ export const icons = {
 
 export const assets = {
   logo,
+  logoWhite,
   food1,
   food2,
   food3,
