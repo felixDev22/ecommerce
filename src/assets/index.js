@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import logoWhite from './logo-white.png';
 import food1 from './food-1.jpg';
 import food2 from './food-2.jpg';
 import food3 from './food-3.jpg';
@@ -7,6 +8,42 @@ import food5 from './food-5.jpg';
 import food6 from './food-6.jpg';
 import food7 from './food-7.png';
 import banner from './pizza-header.jpg';
+
+import coffee1 from './coffee-1.jpg';
+import coffee2 from './coffee-2.jpg';
+import coffee3 from './coffee-3.jpg';
+import dessert1 from './dessert-1.jpg';
+import dessert2 from './dessert-2.jpg';
+import dessert3 from './dessert-3.jpg';
+import dessert4 from './dessert-4.jpg';
+import dessert5 from './dessert-5.jpg';
+import dessert6 from './dessert-6.jpg';
+import drink1 from './drink-1.jpg';
+import drink2 from './drink-2.jpg';
+import drink3 from './drink-3.jpg';
+import drink4 from './drink-4.jpg';
+import drink5 from './drink-5.jpg';
+import fastfood1 from './fastfood-1.jpg';
+import fastfood2 from './fastfood-2.jpg';
+import fastfood3 from './fastfood-3.jpg';
+import fastfood4 from './fastfood-4.jpg';
+import fastfood5 from './fastfood-5.jpg';
+import pizza1 from './pizza-1.jpg';
+import pizza2 from './pizza-2.jpg';
+import pizza3 from './pizza-3.jpg';
+import pizza4 from './pizza-4.jpg';
+import pizza5 from './pizza-5.jpg';
+import pastry1 from './pastry-1.jpg';
+import pastry2 from './pastry-2.jpg';
+import pastry3 from './pastry-3.jpg';
+import pastry4 from './pastry-4.jpg';
+import pastry5 from './pastry-5.jpg';
+import salad1 from './salad-1.jpg';
+import salad2 from './salad-2.jpg';
+import salad3 from './salad-3.jpg';
+import swahiliDishes1 from './swahili-1.jpg';
+import swahiliDishes2 from './swahili-2.jpg';
+import swahiliDishes3 from './swahili-3.jpg';
 
 import cat01 from './menu-cat1.png';
 import cat02 from './menu-cat2.png';
@@ -24,6 +61,7 @@ import { FaRegStar } from 'react-icons/fa6';
 import { FaStar } from 'react-icons/fa6';
 import { IoMdAddCircle } from 'react-icons/io';
 import { IoRemoveCircle } from 'react-icons/io5';
+import { IoMenu } from 'react-icons/io5';
 
 export const icons = {
   FaMagnifyingGlass,
@@ -32,10 +70,12 @@ export const icons = {
   FaStar,
   IoMdAddCircle,
   IoRemoveCircle,
+  IoMenu,
 };
 
 export const assets = {
   logo,
+  logoWhite,
   food1,
   food2,
   food3,
@@ -52,7 +92,7 @@ export const menuCategory = [
     image: cat01,
   },
   {
-    name: 'Desserts',
+    name: 'Dessert',
     image: cat02,
   },
   {
@@ -60,7 +100,7 @@ export const menuCategory = [
     image: cat03,
   },
   {
-    name: 'Fast-foods',
+    name: 'Fast-food',
     image: cat04,
   },
   {
@@ -144,26 +184,283 @@ export const menuItems = [
   },
   {
     id: 8,
-    image: food1,
-    type: 'Ribs',
+    image: pizza1,
+    type: 'Pizza',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Pizza',
   },
   {
     id: 9,
-    image: food2,
-    type: 'Spaghetti with Sausage',
+    image: pizza2,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+  {
+    id: 10,
+    image: pizza3,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+
+  {
+    id: 11,
+    image: coffee1,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 12,
+    image: coffee2,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 13,
+    image: coffee3,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 14,
+    image: dessert1,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 15,
+    image: dessert2,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 16,
+    image: dessert3,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 17,
+    image: dessert4,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 18,
+    image: dessert5,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 19,
+    image: dessert6,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 20,
+    image: drink1,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 21,
+    image: drink2,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 22,
+    image: drink3,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 23,
+    image: drink4,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 24,
+    image: drink5,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 25,
+    image: fastfood1,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 25,
+    image: fastfood2,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 26,
+    image: fastfood3,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 27,
+    image: fastfood4,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 28,
+    image: fastfood5,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 29,
+    image: pizza4,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+  {
+    id: 30,
+    image: pizza5,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+  {
+    id: 31,
+    image: pastry1,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 32,
+    image: pastry2,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 33,
+    image: pastry3,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 34,
+    image: pastry4,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 35,
+    image: pastry5,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 36,
+    image: salad1,
+    type: 'Salad',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
     category: 'Salad',
   },
   {
-    id: 10,
-    image: food3,
-    type: 'Beef',
+    id: 37,
+    image: salad2,
+    type: 'Salad',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Salad',
+  },
+  {
+    id: 38,
+    image: salad3,
+    type: 'Salad',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Salad',
+  },
+  {
+    id: 39,
+    image: swahiliDishes1,
+    type: 'Samaki Karae',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
+  },
+  {
+    id: 40,
+    image: swahiliDishes2,
+    type: 'Samaki wa nazi',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
+  },
+  {
+    id: 41,
+    image: swahiliDishes3,
+    type: 'Nyama Mchuzi',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
   },
 ];

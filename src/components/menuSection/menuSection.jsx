@@ -4,7 +4,7 @@ import './menuSection.css';
 
 const MenuSection = ({ category, setCategory }) => {
   return (
-    <div className="menu-section">
+    <div className="menu-section" id="menu">
       <div>
         <h1>Choose Your Favorite Dish</h1>
         <p>
