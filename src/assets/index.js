@@ -9,6 +9,26 @@ import food6 from './food-6.jpg';
 import food7 from './food-7.png';
 import banner from './pizza-header.jpg';
 
+import coffee1 from './coffee-1.jpg';
+import coffee2 from './coffee-2.jpg';
+import coffee3 from './coffee-3.jpg';
+import dessert1 from './dessert-1.jpg';
+import dessert2 from './dessert-2.jpg';
+import dessert3 from './dessert-3.jpg';
+import dessert4 from './dessert-4.jpg';
+import dessert5 from './dessert-5.jpg';
+import dessert6 from './dessert-6.jpg';
+import drink1 from './drink-1.jpg';
+import drink2 from './drink-2.jpg';
+import drink3 from './drink-3.jpg';
+import drink4 from './drink-4.jpg';
+import drink5 from './drink-5.jpg';
+import fastfood1 from './fastfood-1.jpg';
+import fastfood2 from './fastfood-2.jpg';
+import fastfood3 from './fastfood-3.jpg';
+import fastfood4 from './fastfood-4.jpg';
+import fastfood5 from './fastfood-5.jpg';
+
 import cat01 from './menu-cat1.png';
 import cat02 from './menu-cat2.png';
 import cat03 from './menu-cat3.png';
@@ -56,7 +76,7 @@ export const menuCategory = [
     image: cat01,
   },
   {
-    name: 'Desserts',
+    name: 'Dessert',
     image: cat02,
   },
   {
@@ -64,7 +84,7 @@ export const menuCategory = [
     image: cat03,
   },
   {
-    name: 'Fast-foods',
+    name: 'Fast-food',
     image: cat04,
   },
   {
@@ -169,5 +189,157 @@ export const menuItems = [
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
     category: 'Meals',
+  },
+  {
+    id: 11,
+    image: coffee1,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 12,
+    image: coffee2,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 13,
+    image: coffee3,
+    type: 'Coffee',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Coffee',
+  },
+  {
+    id: 14,
+    image: dessert1,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 15,
+    image: dessert2,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 16,
+    image: dessert3,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 17,
+    image: dessert4,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 18,
+    image: dessert5,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 19,
+    image: dessert6,
+    type: 'Dessert',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Dessert',
+  },
+  {
+    id: 20,
+    image: drink1,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 21,
+    image: drink2,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 22,
+    image: drink3,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 23,
+    image: drink4,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 24,
+    image: drink5,
+    type: 'Soft-Drinks',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Soft-Drinks',
+  },
+  {
+    id: 25,
+    image: fastfood1,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 25,
+    image: fastfood2,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 26,
+    image: fastfood3,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 27,
+    image: fastfood4,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
+  },
+  {
+    id: 28,
+    image: fastfood5,
+    type: 'Fast-food',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Fast-food',
   },
 ];
