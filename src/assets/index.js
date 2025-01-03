@@ -28,6 +28,22 @@ import fastfood2 from './fastfood-2.jpg';
 import fastfood3 from './fastfood-3.jpg';
 import fastfood4 from './fastfood-4.jpg';
 import fastfood5 from './fastfood-5.jpg';
+import pizza1 from './pizza-1.jpg';
+import pizza2 from './pizza-2.jpg';
+import pizza3 from './pizza-3.jpg';
+import pizza4 from './pizza-4.jpg';
+import pizza5 from './pizza-5.jpg';
+import pastry1 from './pastry-1.jpg';
+import pastry2 from './pastry-2.jpg';
+import pastry3 from './pastry-3.jpg';
+import pastry4 from './pastry-4.jpg';
+import pastry5 from './pastry-5.jpg';
+import salad1 from './salad-1.jpg';
+import salad2 from './salad-2.jpg';
+import salad3 from './salad-3.jpg';
+import swahiliDishes1 from './swahili-1.jpg';
+import swahiliDishes2 from './swahili-2.jpg';
+import swahiliDishes3 from './swahili-3.jpg';
 
 import cat01 from './menu-cat1.png';
 import cat02 from './menu-cat2.png';
@@ -168,28 +184,29 @@ export const menuItems = [
   },
   {
     id: 8,
-    image: food1,
-    type: 'Ribs',
+    image: pizza1,
+    type: 'Pizza',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Pizza',
   },
   {
     id: 9,
-    image: food2,
-    type: 'Spaghetti with Sausage',
+    image: pizza2,
+    type: 'Pizza',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Salad',
+    category: 'Pizza',
   },
   {
     id: 10,
-    image: food3,
-    type: 'Beef',
+    image: pizza3,
+    type: 'Pizza',
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
-    category: 'Meals',
+    category: 'Pizza',
   },
+
   {
     id: 11,
     image: coffee1,
@@ -341,5 +358,109 @@ export const menuItems = [
     disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
     price: 530,
     category: 'Fast-food',
+  },
+  {
+    id: 29,
+    image: pizza4,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+  {
+    id: 30,
+    image: pizza5,
+    type: 'Pizza',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pizza',
+  },
+  {
+    id: 31,
+    image: pastry1,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 32,
+    image: pastry2,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 33,
+    image: pastry3,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 34,
+    image: pastry4,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 35,
+    image: pastry5,
+    type: 'Pastry',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Pastry',
+  },
+  {
+    id: 36,
+    image: salad1,
+    type: 'Salad',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Salad',
+  },
+  {
+    id: 37,
+    image: salad2,
+    type: 'Salad',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Salad',
+  },
+  {
+    id: 38,
+    image: salad3,
+    type: 'Salad',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Salad',
+  },
+  {
+    id: 39,
+    image: swahiliDishes1,
+    type: 'Samaki Karae',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
+  },
+  {
+    id: 40,
+    image: swahiliDishes2,
+    type: 'Samaki wa nazi',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
+  },
+  {
+    id: 41,
+    image: swahiliDishes3,
+    type: 'Nyama Mchuzi',
+    disc: 'Delicious, nutrient-rich food packed with vitamins for a perfect diet',
+    price: 530,
+    category: 'Swahili Dishes',
   },
 ];
