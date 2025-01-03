@@ -5,9 +5,12 @@
   height: auto;
   margin-top: 50px;
 }
-.menu-section p, h1{
+.menu-section p,
+h1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+  align-items: start;
 }
 
 .menu-list {
@@ -42,7 +45,7 @@
 
 .menu-items p {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .active {
   width: 150px;
